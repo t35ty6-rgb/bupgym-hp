@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>めぐみ リッチメニュー 配色 5案 · 選択</title>
+<title>めぐみ リッチメニュー 写真 5案 · 選択</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700;900&family=Inter:wght@600;700;800&display=swap" rel="stylesheet">
@@ -65,10 +65,7 @@ h1 {
 }
 .lead b { color: var(--ink); font-weight: 900; }
 
-.variants {
-  display: grid;
-  gap: 40px;
-}
+.variants { display: grid; gap: 40px; }
 
 .variant {
   background: var(--surface);
@@ -87,19 +84,16 @@ h1 {
   gap: 20px;
   border-bottom: 1px solid var(--rule);
 }
-.variant-title {
-  flex: 1;
-  min-width: 0;
-}
+.variant-title { flex: 1; min-width: 0; }
 .variant-letter {
   flex-shrink: 0;
-  width: 56px; height: 56px;
+  width: 64px; height: 56px;
   border-radius: 12px;
   background: var(--accent);
   color: #FFFFFF;
   font-family: 'Inter', sans-serif;
   font-weight: 900;
-  font-size: 28px;
+  font-size: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -135,9 +129,7 @@ h1 {
   object-fit: contain;
   display: block;
   border-radius: 8px;
-  box-shadow:
-    0 20px 60px rgba(0,0,0,0.45),
-    0 0 0 1px rgba(255,255,255,0.06);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.45), 0 0 0 1px rgba(255,255,255,0.06);
 }
 
 .footer-note {
@@ -192,14 +184,14 @@ h1 {
   flex-wrap: wrap;
 }
 .picker-btn {
-  min-width: 60px;
-  padding: 10px 18px;
+  min-width: 66px;
+  padding: 10px 16px;
   border-radius: 999px;
   background: rgba(255,255,255,0.06);
   color: var(--ink);
   font-family: 'Inter', sans-serif;
   font-weight: 800;
-  font-size: 16px;
+  font-size: 15px;
   border: 1.5px solid transparent;
   cursor: pointer;
   transition: all 0.15s;
@@ -212,92 +204,91 @@ h1 {
 
 @media (max-width: 600px) {
   .variant-head { padding: 20px 20px 16px; }
-  .variant-letter { width: 48px; height: 48px; font-size: 22px; }
+  .variant-letter { width: 54px; height: 48px; font-size: 20px; }
   .variant-name { font-size: 17px; }
   .variant-sub { font-size: 12.5px; }
   .variant-img-wrap { padding: 14px; }
   .picker-panel { padding: 12px 14px; gap: 10px; flex-wrap: wrap; }
   .picker-label { font-size: 12px; }
-  .picker-btn { min-width: 44px; padding: 8px 12px; font-size: 14px; }
+  .picker-btn { min-width: 50px; padding: 8px 12px; font-size: 13px; }
 }
 </style>
 </head>
 <body>
 <div class="page">
   <div class="header">
-    <div class="eyebrow">RICH MENU — palette selection</div>
-    <h1>めぐみ の LINE リッチメニュー<br>配色 5 案</h1>
+    <div class="eyebrow">RICH MENU — photo selection</div>
+    <h1>めぐみ の LINE リッチメニュー<br>写真 5 案</h1>
     <p class="lead">
-      前回 「写真 が 見えづらい」 feedback を 受けて、 <b>写真 を くっきり</b> 主役 に する 方針 で 作り直し。<br>
-      左半分 は めぐみ の 写真 が ほぼ 素 で 見える + 下部 だけ dark grad で 文字読める。<br>
-      右半分 の 3 タイル は 5 案 で 差別化 (palette / mood)。 実寸 2500 × 1686 px。
+      デザイン 定型 (白 tile + ビビッド ピンク、 前回 V18-A 相当) は 固定 で、 <b>写真 5 パターン</b> を 比較。<br>
+      左半分 の めぐみ 写真 の 印象 が だいぶ 変わる。
     </p>
   </div>
 
   <div class="variants">
 
-    <div class="variant" id="var-A">
+    <div class="variant" id="var-P1">
       <div class="variant-head">
         <div class="variant-title">
-          <div class="variant-name">写真くっきり + 白 tile + ビビッド ピンク</div>
-          <div class="variant-sub">写真 主役、 白基調 tile に #E85A83 accent。 明るく 若い、 HP と 統一。</div>
+          <div class="variant-name">P1: 笑顔 座り (S05)</div>
+          <div class="variant-sub">座って リラックス、 親しみやすい 笑顔。 前回 V18 default。 友達 感覚 で 相談しやすい 印象。</div>
         </div>
-        <div class="variant-letter">A</div>
+        <div class="variant-letter">P1</div>
       </div>
       <div class="variant-img-wrap">
-        <img class="variant-img" src="v18-A.jpg" alt="A: ビビッド ピンク × 白 × チャコール">
+        <img class="variant-img" src="v19-P1.jpg" alt="P1: 笑顔 座り (S05)">
       </div>
     </div>
 
-    <div class="variant" id="var-B">
+    <div class="variant" id="var-P2">
       <div class="variant-head">
         <div class="variant-title">
-          <div class="variant-name">写真くっきり + ダーク tile + ゴールド</div>
-          <div class="variant-sub">写真 主役、 チャコール tile に ゴールド thread。 高級感 + プロ アスリート 感。</div>
+          <div class="variant-name">P2: サイド プランク (S02)</div>
+          <div class="variant-sub">ピンク ショート + キャップ、 動きある フィットネス ポーズ。 トレーナー 感 が 強い。</div>
         </div>
-        <div class="variant-letter">B</div>
+        <div class="variant-letter">P2</div>
       </div>
       <div class="variant-img-wrap">
-        <img class="variant-img" src="v18-B.jpg" alt="B: ミルクベージュ × コーラル × ゴールド">
+        <img class="variant-img" src="v19-P2.jpg" alt="P2: サイド プランク (S02)">
       </div>
     </div>
 
-    <div class="variant" id="var-C">
+    <div class="variant" id="var-P3">
       <div class="variant-head">
         <div class="variant-title">
-          <div class="variant-name">写真くっきり + 白 + ソフト コーラル</div>
-          <div class="variant-sub">写真 主役、 pure 白 tile に コーラル #FF6B4A accent。 magazine editorial、 上品。</div>
+          <div class="variant-name">P3: ストレッチ + 笑顔 (V02)</div>
+          <div class="variant-sub">白 T + レギンス、 ストレッチ ポーズ + 笑顔。 明るく フレッシュ、 日常感。</div>
         </div>
-        <div class="variant-letter">C</div>
+        <div class="variant-letter">P3</div>
       </div>
       <div class="variant-img-wrap">
-        <img class="variant-img" src="v18-C.jpg" alt="C: パステル ミント × ソフトピンク × 白">
+        <img class="variant-img" src="v19-P3.jpg" alt="P3: ストレッチ + 笑顔 (V02)">
       </div>
     </div>
 
-    <div class="variant" id="var-D">
+    <div class="variant" id="var-P4">
       <div class="variant-head">
         <div class="variant-title">
-          <div class="variant-name">写真くっきり + ダーク + ネオン ピンク</div>
-          <div class="variant-sub">写真 主役、 ダーク tile に ネオン ピンク accent。 かっこいい、 Instagram 夜 系。</div>
+          <div class="variant-name">P4: レザー + キャップ (S04)</div>
+          <div class="variant-sub">レザー ジャケット + キャップ、 かっこいい fashion editorial。 大人っぽい 印象。</div>
         </div>
-        <div class="variant-letter">D</div>
+        <div class="variant-letter">P4</div>
       </div>
       <div class="variant-img-wrap">
-        <img class="variant-img" src="v18-D.jpg" alt="D: ダーク × ネオン ピンク × ゴールド">
+        <img class="variant-img" src="v19-P4.jpg" alt="P4: レザー + キャップ (S04)">
       </div>
     </div>
 
-    <div class="variant" id="var-E">
+    <div class="variant" id="var-P5">
       <div class="variant-head">
         <div class="variant-title">
-          <div class="variant-name">写真くっきり + オフホワイト + 深緑</div>
-          <div class="variant-sub">写真 主役、 warm cream tile に deep green #2E5F4A accent。 organic wellness、 spa 系。</div>
+          <div class="variant-name">P5: ビキニ ポーズ (S06)</div>
+          <div class="variant-sub">キャップ + 黒 トップ、 大会 経歴 (BBJ 4連続 / 富山 グランプリ) の 説得力、 プロ アスリート 感。</div>
         </div>
-        <div class="variant-letter">E</div>
+        <div class="variant-letter">P5</div>
       </div>
       <div class="variant-img-wrap">
-        <img class="variant-img" src="v18-E.jpg" alt="E: フレッシュ サーモン × オフホワイト × 深緑">
+        <img class="variant-img" src="v19-P5.jpg" alt="P5: ビキニ ポーズ (S06)">
       </div>
     </div>
 
@@ -305,20 +296,20 @@ h1 {
 
   <div class="footer-note">
     <b>選び方</b><br>
-    どれ か 1 案 を 選んで、 <b>Jobs に</b> 「<code>V18 は A で いい</code>」 の ように 返してください。<br>
+    どれ か 1 案 を 選んで、 <b>Jobs に</b> 「<code>写真は P2 で</code>」 の ように 返してください。<br>
     Jobs が LINE API に 差し替え + 実 rich menu 反映 (所要 15 分)。<br>
     <br>
-    Custom で 「B の base + D の tile-tickets を 混ぜたい」 等 の 合成 も 可能。
+    「もっと 別 の 写真 見たい」 も OK — 手持ち あと S01, S03, V01 の 3枚。
   </div>
 
   <div class="picker-panel">
     <div class="picker-label">Jump to →</div>
     <div class="picker-btns">
-      <a class="picker-btn" href="#var-A">A</a>
-      <a class="picker-btn" href="#var-B">B</a>
-      <a class="picker-btn" href="#var-C">C</a>
-      <a class="picker-btn" href="#var-D">D</a>
-      <a class="picker-btn" href="#var-E">E</a>
+      <a class="picker-btn" href="#var-P1">P1</a>
+      <a class="picker-btn" href="#var-P2">P2</a>
+      <a class="picker-btn" href="#var-P3">P3</a>
+      <a class="picker-btn" href="#var-P4">P4</a>
+      <a class="picker-btn" href="#var-P5">P5</a>
     </div>
   </div>
 </div>
